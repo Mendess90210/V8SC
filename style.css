@@ -1,0 +1,82 @@
+:root {
+    --azul-fundo: #1C22A4;
+    --azul-botao: #161B8E;
+    --branco-texto: #FFFFFF;
+    --amarelo-texto: #D4CA60;
+    --fonte-principal: 'krona_one';
+}
+body {
+    background-color: var(--azul-fundo);
+    color: var(--branco-texto);
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+strong {
+    color: var(--amarelo-texto)
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.principal {
+    align-items: center;
+}
+.container {
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+    display: grid;
+}
+.container__botao {
+    background-color: var(--azul-botao);
+    font-size: 32px;
+    border-radius: 16px;
+    padding: 1em;
+    color: var(--branco-texto);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+.botao_secundario{
+    background-color: var(--azul-botao);
+    font-size: 32px;
+    border-radius: 16px;
+    padding: 1em;
+    color: var(--branco-texto);
+    display: block;
+    text-decoration: none;
+}
+.container_titulo{
+    font-size: 64px;
+}
+.container__imagem{
+    margin: 1em 0 2em 0;
+    width: 100%;
+    border-radius: 16px;
+    margin-left: 60%;
+    margin-top: -36%;
+}
+.container__caixa{
+    margin: 0 6em;
+}
+.krona-one-regular {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container__texto{
+    margin-bottom: 5%;
+    margin-top: 1em;
+}
+.botao_mapa{
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    font-size: 32px;
+    border-radius: 16px;
+    padding: 1em;
+    color: var(--branco-texto);
+    display: block;
+    text-decoration: none;
+
+}
